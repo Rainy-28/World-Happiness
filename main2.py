@@ -1,4 +1,6 @@
 import streamlit as st
+
+from pydantic_settings import BaseSetting
 from streamlit_option_menu import option_menu
 import pandas as pd
 import time
@@ -10,6 +12,7 @@ from streamlit_lottie import st_lottie
 from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 import numpy as np
+
 
 st.set_page_config(layout="wide")
 
