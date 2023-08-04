@@ -8,7 +8,7 @@ import plotly.express as px
 import json
 import requests
 from streamlit_lottie import st_lottie
-import pandas_profiling
+from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 import numpy as np
 
