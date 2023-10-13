@@ -155,10 +155,6 @@ if selected == 'Familiarizing with Data':
 
 if selected == 'Exploratory Analysis':
 	st.title('Exploratory Analysis')
-	st.subheader('With Pandas Profiling')
-	merged_table = pd.read_csv('world_happiness2.csv')
-	profile = ProfileReport(merged_table)
-	st_profile_report(profile)
 
 
 if selected == 'Data Analysis':
